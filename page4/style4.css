@@ -1,0 +1,47 @@
+.body{
+    background-color: rgb(70, 153, 157);
+}
+.container-fluid{
+    background-color: #fab516;
+}
+
+.left{
+    margin-left: 20px;
+}
+.Nd{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 30px;
+    padding: 10px 15px;
+    text-align: left;
+}
+.d-flex{
+    margin-left: 1150px;
+}
+.anh{
+    text-align: center;
+}
+.footer1{
+    margin-left: 20px;
+}
+.text{
+    width: 30%;
+}
+.h{
+    color: brown;
+}
+.p{
+    color: white;
+    font-size: 20px;
+}
+.p1{
+    color: blue;
+    font-size: 18px;
+}
+.note{
+    text-align: center;
+}
+.note1{
+    margin-left: 400px;
+}

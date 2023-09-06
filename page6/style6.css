@@ -1,0 +1,13 @@
+.p1{
+    color: blue;
+    font-size: 18px;
+}
+.text{
+    width: 405px;
+}
+.nut{
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: coral;
+}
