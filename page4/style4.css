@@ -1,20 +1,17 @@
 .body{
-    background-color: rgb(70, 153, 157);
+    background-color: white;
 }
-.container-fluid{
-    background-color: #fab516;
+body::-webkit-scrollbar {
+    display: none;
 }
-
 .left{
     margin-left: 20px;
 }
 .Nd{
     display: flex;
     align-items: center;
-    margin-left: 30px;
     font-size: 30px;
-    padding: 10px 15px;
-    text-align: left;
+    padding: 15px 0px 0px 0px;
 }
 .d-flex{
     margin-left: 1150px;
@@ -22,26 +19,63 @@
 .anh{
     text-align: center;
 }
-.footer1{
-    margin-left: 20px;
+.footer{
+    background-color: black;
 }
 .text{
     width: 30%;
 }
 .h{
-    color: brown;
+    color: darkred;
 }
 .p{
-    color: white;
     font-size: 20px;
 }
 .p1{
     color: blue;
     font-size: 18px;
 }
+.totop{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: #2572cb;
+    color: white;
+    margin-left: 1300px;
+    transition: width 2s;
+    transition: transform 0.7s; 
+    transform: translateY(0.1in);
+}
+.totop:hover{
+    transition: transform 0.7s; 
+    transform: rotate(360deg);
+    box-shadow: 0 0 5px white,
+              0 0 10px black,
+              0 0 5px black,
+              0 0 10px black;
+}  
+.footer4{
+    display: flex;
+    margin-left: 400px;    
+}    
+.footer3{
+    color: #fcc2d7;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-footer{
+    margin-left: 445px;
+    color: white;
+}
 .note{
     text-align: center;
+    color: white;
 }
 .note1{
     margin-left: 400px;
+}
+.USEFUL{
+    color: white;
 }

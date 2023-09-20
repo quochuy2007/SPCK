@@ -1,3 +1,9 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+nav{
+    background-color: white;
+}
 .nav1{
     color: #05498f;
     font-family: 'Playfair Display', serif;
@@ -35,6 +41,7 @@
 .nav3{
     margin-left: 160px;
     width: 500px;
+    text-align: justify;
 }
 .nav31{
     width: 800px;
@@ -55,7 +62,7 @@
 }
 .footer4{
     display: flex;
-    margin-left: 160px;    
+    margin-left: 400px;
 }    
 .footer3{
     color: darkgoldenrod;
@@ -63,12 +70,33 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .img-footer{
-    margin-left: 445px;
+    margin-left: 400px;
 }
 .note{
-    margin-left: -400px;
     text-align: center;
 }
 .note1{
-    margin-left: 560px;
+    margin-left: 400px;
+}
+.totop{
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: #2572cb;
+    color: white;
+    margin-left: 1330px;
+    transition: width 2s;
+    transition: transform 0.7s; 
+    transform: translateY(0.1in);
+}
+.totop:hover{
+    transition: transform 0.7s; 
+    background-color: goldenrod;
+} 
+footer{
+    color: white;
+    background-color: black;
 }

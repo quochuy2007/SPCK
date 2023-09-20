@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>particles.js</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body>
+
+  <div class="body1">
+    <div class="body2">
+      <p class="p1"><b>Nếu thấy hay thì bạn hãy bình luận bài viết này</b></p>
+      <input class="text" type="text" placeholder="Bạn cảm thấy bài viết này như thế nào?">
+      <br><br>
+      <p class="p1"><b>Điền thông tin để gửi bình luận của bạn</b></p>
+      <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Họ</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Lưu" required>
+          </div><br>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Tên</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Huy" required>
+          </div><br>
+          <div class="col-md-4">
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">Mail</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="lqhldclhna@gmail.com">
+            </div>
+          </div><br>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required placeholder="Hà Nội">
+          </div><br>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">Quận</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Chọn quận của bạn</option>
+              <option>Quận Thanh Xuân</option>
+              <option>Quận Hà Đông</option>
+              <option>Quận Cầu Giấy</option>
+              <option>Quận Đống Đa</option>
+              <option>Quận Hoàng Mai</option>
+            </select>
+          </div><br>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip </label>
+            <input type="text" class="form-control" id="validationCustom05" required placeholder="152000">
+          </div><br>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+            </div>
+          </div>
+        </form>
+      <div>
+          <a href=""><button class="nut">Sumbit Form</button></a>
+      </div>
+    </div>
+  </div>
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+
+
+</body>
+</html>

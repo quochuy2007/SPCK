@@ -1,7 +1,10 @@
-.body{
+body{
     margin: 0;
     text-align: center;
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
 .header{
     height: 80px;
     display: flex;
@@ -22,6 +25,7 @@
     margin-left: 980px;
 }
 .tre{
+    text-align: justify;
     height: 200px;
     width: 730px;
     margin: 0 auto;
@@ -29,7 +33,7 @@
     font-size: 22px;
 }
 .p-orgin{
-    margin-left: 392px;
+    margin-left: 400px;
     color: #9e0b0f;
     font-size: 20px;
 }
@@ -41,6 +45,7 @@
     width: 730px;
     margin: 0 auto;
     font-size: 16px;
+    text-align: justify;
 }
 .sign-up{
     text-align: center;
@@ -112,7 +117,7 @@
     margin-left: 400px;    
 }    
 .footer3{
-    color: darkgoldenrod;
+    color: #40c057;
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -124,4 +129,27 @@
 }
 .note1{
     margin-left: 400px;
+}   
+.totop{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: #2572cb;
+    color: white;
+    margin-left: 1320px;
+
+}
+.totop:hover{
+    transition: transform 0.7s; 
+    transform: rotate(360deg);
+    box-shadow: 0 0 5px white,
+              0 0 10px black,
+              0 0 5px black,
+              0 0 10px black;
+}
+.ft{
+    color: white;
+    background-color: black;
 }
